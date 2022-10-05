@@ -324,7 +324,7 @@ parameters:
 - description: Image stream tag for the image you'd like to use to build the application
   name: IMAGE_STREAM_TAG_NAME
   required: true
-  value: redhat-openjdk18-openshift:1.1
+  value: redhat-openjdk18-openshift:1.10
 - description: Name of a service account that can deploy to this project
   name: SA_NAME
   required: true
