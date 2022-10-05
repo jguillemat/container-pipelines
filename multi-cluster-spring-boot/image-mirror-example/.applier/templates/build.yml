@@ -123,7 +123,7 @@ parameters:
 - description: Image stream tag for the image you'd like to use to build the application
   name: IMAGE_STREAM_TAG_NAME
   required: true
-  value: redhat-openjdk18-openshift:1.1
+  value: redhat-openjdk18-openshift:1.10
 - description: The source docker registry used for image mirror
   name: SRC_REGISTRY
   required: true
