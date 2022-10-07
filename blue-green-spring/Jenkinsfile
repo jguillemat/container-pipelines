@@ -2,7 +2,7 @@ library identifier: "pipeline-library@v1.6",
 retriever: modernSCM(
   [
     $class: "GitSCMSource",
-    remote: "https://github.com/redhat-cop/pipeline-library.git"
+    remote: "https://github.com/jguillemat/pipeline-library.git"
   ]
 )
 
